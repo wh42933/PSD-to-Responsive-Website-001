@@ -205,4 +205,59 @@ footer li.tw{
     font-size: 14px;
 }
 
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 960px){
+
+#selling-points li{
+    width: 40%;
+    padding: 0 5%;
+    margin: 20px 0;
+}
+
+#selling-points li:nth-child(odd){
+    clear: both;
+}
+
+footer ul{
+    width: 50%;
+}
+
+footer ul:nth-child(odd){
+    clear: both;
+}
+
+#quote{
+    width: 90%;
+    padding: 40px 5%;
+}
+
+@media screen and (max-width: 768px){
+
+header nav{
+    float: none;
+}
+
+header nav li{
+    margin-left: 0;
+    width: 16.66%;
+    text-align: center;
+    font-size: 14px;
+}
+
+header h1.logo{
+    float: none;
+    margin: 0 auto 15px;
+}
+
+#latest-work li{
+    width: 60%;
+    margin: 30px 20% !important;
+    float: none;
+}
+
+#latest-work h2{
+    text-align: center;
+}
+
 }
